@@ -1,15 +1,15 @@
 {
-  "name": "Components",
+  "name": "Vis",
   "version": "0.0.1",
-  "description": "some vue components",
-  "main": "dist/components.min.js",
+  "description": "vue adapter for Visjs",
+  "main": "dist/Vis.min.js",
   "scripts": {
     "build": "cd scripts && build.sh",
     "lint": "./node_modules/.bin/eslint --ext .js,.vue src --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GopherJ/Components.git"
+    "url": "git://github.com/GopherJ/Vis.git"
   },
   "files": [
     "dist/",
@@ -19,12 +19,9 @@
   "license": "MIT",
   "keywords": [
     "vue",
-    "buefy",
-    "axios",
     "vis"
   ],
   "dependencies": {
-    "eslint": "^4.19.0",
     "vis": "^4.21.0",
     "vue": "^2.5.13"
   },
@@ -38,6 +35,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.27.3",
     "cssnano": "^3.10.0",
+    "eslint": "^4.19.0",
     "eslint-config-airbnb-base": "^11.3.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-import-resolver-webpack": "^0.8.3",
