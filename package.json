@@ -24,28 +24,9 @@
     "vis"
   ],
   "dependencies": {
-    "animate.css": "^3.6.1",
-    "animated-vue": "^0.5.3",
-    "axios": "^0.18.0",
-    "bootstrap": "^4.0.0",
-    "brace": "^0.8.0",
-    "buefy": "^0.6.3",
-    "chart.js": "^2.7.2",
-    "d3": "^4.13.0",
-    "d3-sankey-circular": "^0.23.0",
     "eslint": "^4.19.0",
-    "lodash": "^4.17.5",
-    "moment": "^2.21.0",
-    "seedrandom": "^2.4.3",
-    "uuid": "^3.2.1",
     "vis": "^4.21.0",
-    "vue": "^2.5.13",
-    "vue-chart-js": "^1.4.1",
-    "vue-chartjs": "^3.3.1",
-    "vue-grid-layout": "^2.1.12",
-    "vue2-ace": "^1.0.6",
-    "vuedraggable": "^2.16.0",
-    "vuex": "^3.0.1"
+    "vue": "^2.5.13"
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",
@@ -74,7 +55,6 @@
     "vue-loader": "^11.1.4",
     "vue-style-loader": "^2.0.2",
     "vue-template-compiler": "^2.2.3",
-    "vue2-ace-editor": "0.0.8",
     "webpack": "^2.7.0"
   }
 }
